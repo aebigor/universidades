@@ -1,0 +1,132 @@
+{
+  "id": "af1dc78e-8fb1-45db-95c9-26f2b5df30dc",
+  "version": "2.0",
+  "name": "creacion de base de datos",
+  "url": "https://bpo-2.dyalogo.cloud/manager/login",
+  "tests": [{
+    "id": "3d7c822c-9a29-4759-b1fa-faa9b91ada99",
+    "name": "Creacion de base de datos",
+    "commands": [{
+      "id": "62717086-634e-4f28-a00b-b5e9e61fe0d2",
+      "comment": "",
+      "command": "open",
+      "target": "https://qa.dyalogo.cloud/manager/modulo/guion/02f0858f054629ab02fea45f8d262b83",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "54c783f4-a636-47c9-abce-1e741f8d9920",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x839",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0aad3369-c077-4007-9ec3-15e35193b205",
+      "comment": "",
+      "command": "click",
+      "target": "css=#add > .fa",
+      "targets": [
+        ["css=#add > .fa", "css:finder"],
+        ["xpath=//button[@id='add']/i", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f01294eb-ed3b-4628-b522-a31bfea0715b",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.modal-backdrop",
+      "targets": [
+        ["css=.modal-backdrop", "css:finder"],
+        ["xpath=//body/div[12]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f520369-c13f-4999-b6fe-eca514947301",
+      "comment": "",
+      "command": "click",
+      "target": "id=txtNombreGuion",
+      "targets": [
+        ["id=txtNombreGuion", "id"],
+        ["css=#txtNombreGuion", "css:finder"],
+        ["xpath=//input[@id='txtNombreGuion']", "xpath:attributes"],
+        ["xpath=//form[@id='nuevoGuion']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "85c272db-4d60-49aa-b155-efbc8b65c9d7",
+      "comment": "",
+      "command": "click",
+      "target": "id=txtNombreGuion",
+      "targets": [
+        ["id=txtNombreGuion", "id"],
+        ["css=#txtNombreGuion", "css:finder"],
+        ["xpath=//input[@id='txtNombreGuion']", "xpath:attributes"],
+        ["xpath=//form[@id='nuevoGuion']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d3d81bd5-8960-4a84-a481-cd5bdce34549",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=txtNombreGuion",
+      "targets": [
+        ["id=txtNombreGuion", "id"],
+        ["css=#txtNombreGuion", "css:finder"],
+        ["xpath=//input[@id='txtNombreGuion']", "xpath:attributes"],
+        ["xpath=//form[@id='nuevoGuion']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "500954f9-90e5-4fe1-87f4-3cc766a36294",
+      "comment": "",
+      "command": "type",
+      "target": "id=txtNombreGuion",
+      "targets": [
+        ["id=txtNombreGuion", "id"],
+        ["css=#txtNombreGuion", "css:finder"],
+        ["xpath=//input[@id='txtNombreGuion']", "xpath:attributes"],
+        ["xpath=//form[@id='nuevoGuion']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "prueba sena"
+    }, {
+      "id": "e9ecab95-0790-4027-b36e-58648a022fc6",
+      "comment": "",
+      "command": "click",
+      "target": "id=guardarNewGuion",
+      "targets": [
+        ["id=guardarNewGuion", "id"],
+        ["css=#guardarNewGuion", "css:finder"],
+        ["xpath=//button[@id='guardarNewGuion']", "xpath:attributes"],
+        ["xpath=//div[@id='NuevaGuionModal']/div/div/div[3]/button[2]", "xpath:idRelative"],
+        ["xpath=//div/div[3]/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Crear')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3ea03a9f-af21-4c74-8082-11907b2f706f",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.blockOverlay",
+      "targets": [
+        ["css=.blockOverlay", "css:finder"],
+        ["xpath=//body/div[14]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "7dc47239-a11a-408f-a039-ea5952be7aeb",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3d7c822c-9a29-4759-b1fa-faa9b91ada99"]
+  }],
+  "urls": ["https://bpo-2.dyalogo.cloud/manager/login"],
+  "plugins": []
+}

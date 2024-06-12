@@ -1,0 +1,127 @@
+{
+  "id": "6424f8f8-8aa4-4138-bdc3-27897840fc17",
+  "version": "2.0",
+  "name": "prueba ingreso ",
+  "url": "https://bpo-2.dyalogo.cloud/",
+  "tests": [{
+    "id": "0ce59e06-cac9-4f78-aafc-2a196bc0902d",
+    "name": "ingreso",
+    "commands": [{
+      "id": "6b69e49f-53ab-4aa4-8079-bf54261da85e",
+      "comment": "",
+      "command": "open",
+      "target": "https://bpo-2.dyalogo.cloud/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b3ebde39-85bc-4a3d-b840-265ab5400285",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1004x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "877406ee-ef13-4c37-8c4c-3a077545036c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=SUPERVISIÓN",
+      "targets": [
+        ["linkText=SUPERVISIÓN", "linkText"],
+        ["css=.row:nth-child(1) .btn", "css:finder"],
+        ["xpath=//a[contains(text(),'SUPERVISIÓN')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://bpo-2.dyalogo.cloud/manager/index.php')]", "xpath:href"],
+        ["xpath=//a", "xpath:position"],
+        ["xpath=//a[contains(.,'SUPERVISIÓN')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "939dcd4b-6e37-4775-b675-652d05654e61",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtUsuario",
+      "targets": [
+        ["name=txtUsuario", "name"],
+        ["css=#Login .form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='txtUsuario']", "xpath:attributes"],
+        ["xpath=//div[@id='Login']/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "santicri163@hotmail.com"
+    }, {
+      "id": "35f64ec9-a7c0-4839-b87f-c5e2495d7559",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtPassword",
+      "targets": [
+        ["name=txtPassword", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='txtPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='Login']/div[2]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "DkDtsic"
+    }, {
+      "id": "ed48db3a-766b-4b64-862f-81cebc4bc742",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-xs-4 > .btn",
+      "targets": [
+        ["css=.col-xs-4 > .btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='Login']/div[2]/form/div[3]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Entrar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b94d4a71-e052-48f6-89dc-090bf7bc76a6",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtUsuario",
+      "targets": [
+        ["name=txtUsuario", "name"],
+        ["css=#Login .form-group:nth-child(1) > .form-control", "css:finder"],
+        ["xpath=//input[@name='txtUsuario']", "xpath:attributes"],
+        ["xpath=//div[@id='Login']/div[2]/form/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "santicri163@gmail.com"
+    }, {
+      "id": "17028a3c-8b9a-4525-afac-7ad29da7ff26",
+      "comment": "",
+      "command": "type",
+      "target": "name=txtPassword",
+      "targets": [
+        ["name=txtPassword", "name"],
+        ["css=.form-group:nth-child(2) > .form-control", "css:finder"],
+        ["xpath=//input[@name='txtPassword']", "xpath:attributes"],
+        ["xpath=//div[@id='Login']/div[2]/form/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "DkDtsic"
+    }, {
+      "id": "b3fca527-5bdc-4343-90ac-ffd70b2ec47e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-xs-4 > .btn",
+      "targets": [
+        ["css=.col-xs-4 > .btn", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='Login']/div[2]/form/div[3]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Entrar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "cbaec446-3589-4cb8-865c-0555082dbd25",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0ce59e06-cac9-4f78-aafc-2a196bc0902d"]
+  }],
+  "urls": ["https://bpo-2.dyalogo.cloud/"],
+  "plugins": []
+}

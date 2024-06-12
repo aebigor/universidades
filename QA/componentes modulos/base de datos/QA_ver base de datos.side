@@ -1,0 +1,115 @@
+{
+  "id": "05985a94-fa35-41c8-ac4c-ba42b361b601",
+  "version": "2.0",
+  "name": "ver base de datos",
+  "url": "https://qa.dyalogo.cloud/manager/modulo/guion/02f0858f054629ab02fea45f8d262b83",
+  "tests": [{
+    "id": "dd752857-edc4-4c68-9ca2-5c1656afaf95",
+    "name": "CP01",
+    "commands": [{
+      "id": "c08fe300-03f6-4c2c-b8a0-1ba4c28d1529",
+      "comment": "",
+      "command": "open",
+      "target": "https://qa.dyalogo.cloud/manager/modulo/guion/02f0858f054629ab02fea45f8d262b83",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c2950804-2fd8-4e37-9141-697758201c72",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x839",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ae2a193b-98db-408d-9c17-ea4d427eae13",
+      "comment": "",
+      "command": "click",
+      "target": "id=table_search_lista_navegacion",
+      "targets": [
+        ["id=table_search_lista_navegacion", "id"],
+        ["name=table_search_lista_navegacion", "name"],
+        ["css=#table_search_lista_navegacion", "css:finder"],
+        ["xpath=//input[@id='table_search_lista_navegacion']", "xpath:attributes"],
+        ["xpath=//div[@id='div_lista_navegacion']/div/input", "xpath:idRelative"],
+        ["xpath=//section[2]/div/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "be581126-1b79-46c4-8b63-8251433138ac",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "id=table_search_lista_navegacion",
+      "targets": [
+        ["id=table_search_lista_navegacion", "id"],
+        ["name=table_search_lista_navegacion", "name"],
+        ["css=#table_search_lista_navegacion", "css:finder"],
+        ["xpath=//input[@id='table_search_lista_navegacion']", "xpath:attributes"],
+        ["xpath=//div[@id='div_lista_navegacion']/div/input", "xpath:idRelative"],
+        ["xpath=//section[2]/div/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9127b6dd-0303-4adc-a221-6602fc892a99",
+      "comment": "",
+      "command": "type",
+      "target": "id=table_search_lista_navegacion",
+      "targets": [
+        ["id=table_search_lista_navegacion", "id"],
+        ["name=table_search_lista_navegacion", "name"],
+        ["css=#table_search_lista_navegacion", "css:finder"],
+        ["xpath=//input[@id='table_search_lista_navegacion']", "xpath:attributes"],
+        ["xpath=//div[@id='div_lista_navegacion']/div/input", "xpath:idRelative"],
+        ["xpath=//section[2]/div/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "sena"
+    }, {
+      "id": "d58e22c5-1a2c-4d65-9d3a-a0ddb2571a21",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=table_search_lista_navegacion",
+      "targets": [
+        ["id=table_search_lista_navegacion", "id"],
+        ["name=table_search_lista_navegacion", "name"],
+        ["css=#table_search_lista_navegacion", "css:finder"],
+        ["xpath=//input[@id='table_search_lista_navegacion']", "xpath:attributes"],
+        ["xpath=//div[@id='div_lista_navegacion']/div/input", "xpath:idRelative"],
+        ["xpath=//section[2]/div/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "ddd4eb19-fdc7-4ba9-b2be-8f709b8dae11",
+      "comment": "",
+      "command": "click",
+      "target": "id=vistaPrevia",
+      "targets": [
+        ["id=vistaPrevia", "id"],
+        ["css=#vistaPrevia", "css:finder"],
+        ["xpath=//a[@id='vistaPrevia']", "xpath:attributes"],
+        ["xpath=//div[@id='div_formularios']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://qa.dyalogo.cloud/crm_php/index.php?formulario=a860b884957f184648e5523c38ec4a8e')]", "xpath:href"],
+        ["xpath=//div[2]/div/div[2]/div/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win1556",
+      "windowTimeout": 2000
+    }, {
+      "id": "159295cb-9b30-4a79-bf77-49075fbcecc0",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win1556}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b693c9b0-ff36-49b4-b16e-bc1993ffb21f",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["dd752857-edc4-4c68-9ca2-5c1656afaf95"]
+  }],
+  "urls": ["https://qa.dyalogo.cloud/manager/modulo/guion/02f0858f054629ab02fea45f8d262b83"],
+  "plugins": []
+}

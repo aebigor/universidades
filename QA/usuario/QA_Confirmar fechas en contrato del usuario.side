@@ -1,0 +1,193 @@
+{
+  "id": "fb82f147-ff20-4b83-a14f-f2bad2b73d60",
+  "version": "2.0",
+  "name": "CP09",
+  "url": "https://bpo-2.dyalogo.cloud/manager/modulo/usuarios",
+  "tests": [{
+    "id": "e65c1f23-8864-4175-8908-2ec6f6f33cc4",
+    "name": "CP09",
+    "commands": [{
+      "id": "03bf9339-c6d3-45b4-b3d2-724c580229bc",
+      "comment": "",
+      "command": "open",
+      "target": "https://qa.dyalogo.cloud/manager/modulo/usuarios",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4029e1ef-47c8-4167-b477-a00de48e3303",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1004x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4508ed5c-c772-4443-96c7-5722f9e464e4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-users",
+      "targets": [
+        ["css=.fa-users", "css:finder"],
+        ["xpath=//i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8dd2e5ee-04fb-4d0a-b513-9b2137250db0",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\39 b0cbffe20a607317acf91e8130e7991 p:nth-child(1)",
+      "targets": [
+        ["css=#\\39 b0cbffe20a607317acf91e8130e7991 p:nth-child(1)", "css:finder"],
+        ["xpath=//tr[@id='9b0cbffe20a607317acf91e8130e7991']/td/p", "xpath:idRelative"],
+        ["xpath=//tr[15]/td/p", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a189ca92-2032-48e7-9c1c-a2f9a42a410d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Datos laborales",
+      "targets": [
+        ["linkText=Datos laborales", "linkText"],
+        ["css=.collapsed", "css:finder"],
+        ["xpath=//a[contains(text(),'Datos laborales')]", "xpath:link"],
+        ["xpath=//form[@id='FormularioDatos']/div[2]/div/h4/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#datosLaborales')]", "xpath:href"],
+        ["xpath=//h4/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Datos laborales')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0821c32-9453-4488-a57b-f3edad11877b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#edit > .fa",
+      "targets": [
+        ["css=#edit > .fa", "css:finder"],
+        ["xpath=//button[@id='edit']/i", "xpath:idRelative"],
+        ["xpath=//button[3]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "701a02eb-6805-4f0e-949f-b9e0bbd51742",
+      "comment": "",
+      "command": "click",
+      "target": "id=tipoContrato",
+      "targets": [
+        ["id=tipoContrato", "id"],
+        ["name=tipoContrato", "name"],
+        ["css=#tipoContrato", "css:finder"],
+        ["xpath=//select[@id='tipoContrato']", "xpath:attributes"],
+        ["xpath=//div[@id='datosLaborales']/div/div/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "25ab1acd-18bf-48a3-9b05-cb9fbd6db6d2",
+      "comment": "",
+      "command": "select",
+      "target": "id=tipoContrato",
+      "targets": [],
+      "value": "label=Indefinido"
+    }, {
+      "id": "50d2316b-8bc5-4a2f-a8f4-ba3281561057",
+      "comment": "",
+      "command": "click",
+      "target": "id=fechaIniContr",
+      "targets": [
+        ["id=fechaIniContr", "id"],
+        ["name=fechaIniContr", "name"],
+        ["css=#fechaIniContr", "css:finder"],
+        ["xpath=//input[@id='fechaIniContr']", "xpath:attributes"],
+        ["xpath=//div[@id='datosLaborales']/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b85fbeb-e3ab-4b8c-8b21-7290d4e581be",
+      "comment": "",
+      "command": "type",
+      "target": "id=fechaIniContr",
+      "targets": [
+        ["id=fechaIniContr", "id"],
+        ["name=fechaIniContr", "name"],
+        ["css=#fechaIniContr", "css:finder"],
+        ["xpath=//input[@id='fechaIniContr']", "xpath:attributes"],
+        ["xpath=//div[@id='datosLaborales']/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "2023-11-07"
+    }, {
+      "id": "cf134f10-56bf-4b34-9fdd-5ab7014b5b34",
+      "comment": "",
+      "command": "click",
+      "target": "css=.row:nth-child(1) > .col-xs-12:nth-child(3)",
+      "targets": [
+        ["css=.row:nth-child(1) > .col-xs-12:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='datosLaborales']/div/div[3]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div[3]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9fe9927e-11fd-4668-a6a1-7a1783e4c51c",
+      "comment": "",
+      "command": "click",
+      "target": "id=fechaFinContr",
+      "targets": [
+        ["id=fechaFinContr", "id"],
+        ["name=fechaFinContr", "name"],
+        ["css=#fechaFinContr", "css:finder"],
+        ["xpath=//input[@id='fechaFinContr']", "xpath:attributes"],
+        ["xpath=//div[@id='datosLaborales']/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "16e4ce0e-22bc-44e2-8388-9d815d85c2dc",
+      "comment": "",
+      "command": "type",
+      "target": "id=fechaFinContr",
+      "targets": [
+        ["id=fechaFinContr", "id"],
+        ["name=fechaFinContr", "name"],
+        ["css=#fechaFinContr", "css:finder"],
+        ["xpath=//input[@id='fechaFinContr']", "xpath:attributes"],
+        ["xpath=//div[@id='datosLaborales']/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "2023-12-14"
+    }, {
+      "id": "16b1b1d7-b2dd-4a72-8e77-f2b7d47b22f8",
+      "comment": "",
+      "command": "click",
+      "target": "css=#FormularioDatos",
+      "targets": [
+        ["css=#FormularioDatos", "css:finder"],
+        ["xpath=//form[@id='FormularioDatos']", "xpath:attributes"],
+        ["xpath=//div[@id='div_formularios']/div[2]/form", "xpath:idRelative"],
+        ["xpath=//div[2]/form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7974c920-37d9-426c-b8ea-69d88a5dbf37",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-save",
+      "targets": [
+        ["css=.fa-save", "css:finder"],
+        ["xpath=//button[@id='Save']/i", "xpath:idRelative"],
+        ["xpath=//button[4]/i", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2f2e310e-2a56-4807-afb5-8d95d192e8aa",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e65c1f23-8864-4175-8908-2ec6f6f33cc4"]
+  }],
+  "urls": ["https://bpo-2.dyalogo.cloud/manager/modulo/usuarios"],
+  "plugins": []
+}

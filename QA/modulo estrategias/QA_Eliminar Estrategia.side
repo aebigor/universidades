@@ -1,0 +1,142 @@
+{
+  "id": "653b4daa-0435-4b25-b2d9-c0030cdf1b80",
+  "version": "2.0",
+  "name": "a",
+  "url": "https://bpo-2.dyalogo.cloud/manager/modulo/estrategias",
+  "tests": [{
+    "id": "97a6dbeb-f95b-461a-8ac1-9358a97bb51e",
+    "name": "HOLA",
+    "commands": [{
+      "id": "dbf23eb1-5f3c-49d0-9827-8d051bd56de1",
+      "comment": "",
+      "command": "open",
+      "target": "https://qa.dyalogo.cloud/manager/modulo/estrategias",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "88e7fec5-a2c5-4962-aa9e-1ca1fe8d4072",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9b53a11a-8196-4be4-840e-248a47fa2a2e",
+      "comment": "",
+      "command": "click",
+      "target": "id=table_search_lista_navegacion",
+      "targets": [
+        ["id=table_search_lista_navegacion", "id"],
+        ["name=table_search_lista_navegacion", "name"],
+        ["css=#table_search_lista_navegacion", "css:finder"],
+        ["xpath=//input[@id='table_search_lista_navegacion']", "xpath:attributes"],
+        ["xpath=//div[@id='div_lista_navegacion']/div/input", "xpath:idRelative"],
+        ["xpath=//section[2]/div/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "516cabfb-8582-4535-ae86-eea4649030cb",
+      "comment": "",
+      "command": "type",
+      "target": "id=table_search_lista_navegacion",
+      "targets": [
+        ["id=table_search_lista_navegacion", "id"],
+        ["name=table_search_lista_navegacion", "name"],
+        ["css=#table_search_lista_navegacion", "css:finder"],
+        ["xpath=//input[@id='table_search_lista_navegacion']", "xpath:attributes"],
+        ["xpath=//div[@id='div_lista_navegacion']/div/input", "xpath:idRelative"],
+        ["xpath=//section[2]/div/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "sena"
+    }, {
+      "id": "e8a9f475-89be-48b8-a0c1-e10f17b77bd2",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=table_search_lista_navegacion",
+      "targets": [
+        ["id=table_search_lista_navegacion", "id"],
+        ["name=table_search_lista_navegacion", "name"],
+        ["css=#table_search_lista_navegacion", "css:finder"],
+        ["xpath=//input[@id='table_search_lista_navegacion']", "xpath:attributes"],
+        ["xpath=//div[@id='div_lista_navegacion']/div/input", "xpath:idRelative"],
+        ["xpath=//section[2]/div/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "dbc11974-55c7-4b4f-a69f-d2e4da03509d",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\38 25466008ba0a3f292ffbb8ea4fce688 p:nth-child(1)",
+      "targets": [
+        ["css=#\\38 25466008ba0a3f292ffbb8ea4fce688 p:nth-child(1)", "css:finder"],
+        ["xpath=//tr[@id='825466008ba0a3f292ffbb8ea4fce688']/td/p", "xpath:idRelative"],
+        ["xpath=//td/p", "xpath:position"],
+        ["xpath=//p[contains(.,'PRUEBA SENA')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "226d6668-bf7e-4191-877e-337e65f71364",
+      "comment": "",
+      "command": "click",
+      "target": "id=delete",
+      "targets": [
+        ["id=delete", "id"],
+        ["css=#delete", "css:finder"],
+        ["xpath=//button[@id='delete']", "xpath:attributes"],
+        ["xpath=//div[@id='div_formularios']/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a02d46af-cfb6-40c7-9b6e-b95f9f9ff210",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=delete",
+      "targets": [
+        ["id=delete", "id"],
+        ["css=#delete", "css:finder"],
+        ["xpath=//button[@id='delete']", "xpath:attributes"],
+        ["xpath=//div[@id='div_formularios']/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c714cbec-8a93-4da4-a40e-0de8c29ed5cb",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=delete",
+      "targets": [
+        ["id=delete", "id"],
+        ["css=#delete", "css:finder"],
+        ["xpath=//button[@id='delete']", "xpath:attributes"],
+        ["xpath=//div[@id='div_formularios']/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b9dcf9c-432a-4588-9d5d-047993aa5ff4",
+      "comment": "",
+      "command": "click",
+      "target": "id=alertify-ok",
+      "targets": [
+        ["id=alertify-ok", "id"],
+        ["css=#alertify-ok", "css:finder"],
+        ["xpath=//button[@id='alertify-ok']", "xpath:attributes"],
+        ["xpath=//section[@id='alertify']/div/article/nav/button[2]", "xpath:idRelative"],
+        ["xpath=//nav/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ca709850-4625-4637-afee-866b18999f9c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["97a6dbeb-f95b-461a-8ac1-9358a97bb51e"]
+  }],
+  "urls": ["https://bpo-2.dyalogo.cloud/", "https://bpo-2.dyalogo.cloud/manager/modulo/estrategias"],
+  "plugins": []
+}

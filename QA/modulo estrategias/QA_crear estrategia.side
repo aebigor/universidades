@@ -1,0 +1,197 @@
+{
+  "id": "f7d29145-2eb8-4dfc-9f9e-784dc6b1381a",
+  "version": "2.0",
+  "name": "PRUEBA ",
+  "url": "https://bpo-2.dyalogo.cloud",
+  "tests": [{
+    "id": "ad65eb2f-6216-4e57-8123-2a1655339d38",
+    "name": "PRUEBA 2",
+    "commands": [{
+      "id": "e7860a8e-7108-45d9-a092-1d864ba3f3d8",
+      "comment": "",
+      "command": "open",
+      "target": "https://qa.dyalogo.cloud/manager/modulo/estrategias",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9b7eb2da-d0b6-4ceb-85e8-399a9e41be88",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ea7ef3d4-9bcc-4365-8ae5-f49ffcdbc990",
+      "comment": "",
+      "command": "click",
+      "target": "css=#add > .fa",
+      "targets": [
+        ["css=#add > .fa", "css:finder"],
+        ["xpath=//button[@id='add']/i", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "983f5b5e-5ffd-47b3-a24d-7aae8b7b8372",
+      "comment": "",
+      "command": "click",
+      "target": "id=G2_C7_modal",
+      "targets": [
+        ["id=G2_C7_modal", "id"],
+        ["css=#G2_C7_modal", "css:finder"],
+        ["xpath=//input[@id='G2_C7_modal']", "xpath:attributes"],
+        ["xpath=//form[@id='formuarioCargarEstoEstrart']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "84e00469-8113-4d43-9139-73d4ef9c4f5f",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnSave_Estrat",
+      "targets": [
+        ["id=btnSave_Estrat", "id"],
+        ["css=#btnSave_Estrat", "css:finder"],
+        ["xpath=//button[@id='btnSave_Estrat']", "xpath:attributes"],
+        ["xpath=//div[@id='crearCampanhasNueva']/div/div/div[3]/button[2]", "xpath:idRelative"],
+        ["xpath=//div/div[3]/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cc5bda98-5043-40c8-bb30-6760fb823238",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=btnSave_Estrat",
+      "targets": [
+        ["id=btnSave_Estrat", "id"],
+        ["css=#btnSave_Estrat", "css:finder"],
+        ["xpath=//button[@id='btnSave_Estrat']", "xpath:attributes"],
+        ["xpath=//div[@id='crearCampanhasNueva']/div/div/div[3]/button[2]", "xpath:idRelative"],
+        ["xpath=//div/div[3]/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a203d26e-d4ef-402f-809e-c60349fec133",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=btnSave_Estrat",
+      "targets": [
+        ["id=btnSave_Estrat", "id"],
+        ["css=#btnSave_Estrat", "css:finder"],
+        ["xpath=//button[@id='btnSave_Estrat']", "xpath:attributes"],
+        ["xpath=//div[@id='crearCampanhasNueva']/div/div/div[3]/button[2]", "xpath:idRelative"],
+        ["xpath=//div/div[3]/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "713d822a-deaf-4d38-b8f4-17815c08fdeb",
+      "comment": "",
+      "command": "click",
+      "target": "id=G2_C7_modal",
+      "targets": [
+        ["id=G2_C7_modal", "id"],
+        ["css=#G2_C7_modal", "css:finder"],
+        ["xpath=//input[@id='G2_C7_modal']", "xpath:attributes"],
+        ["xpath=//form[@id='formuarioCargarEstoEstrart']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "87908ada-fa65-4e2a-b17a-2e4026072971",
+      "comment": "",
+      "command": "type",
+      "target": "id=G2_C7_modal",
+      "targets": [
+        ["id=G2_C7_modal", "id"],
+        ["css=#G2_C7_modal", "css:finder"],
+        ["xpath=//input[@id='G2_C7_modal']", "xpath:attributes"],
+        ["xpath=//form[@id='formuarioCargarEstoEstrart']/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/div/input", "xpath:position"]
+      ],
+      "value": "PRUEBA SENA"
+    }, {
+      "id": "e8397902-0e9a-440a-9b18-7775628eadae",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnSave_Estrat",
+      "targets": [
+        ["id=btnSave_Estrat", "id"],
+        ["css=#btnSave_Estrat", "css:finder"],
+        ["xpath=//button[@id='btnSave_Estrat']", "xpath:attributes"],
+        ["xpath=//div[@id='crearCampanhasNueva']/div/div/div[3]/button[2]", "xpath:idRelative"],
+        ["xpath=//div/div[3]/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4420601c-464a-4735-8058-18362bb0ac11",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=btnSave_Estrat",
+      "targets": [
+        ["id=btnSave_Estrat", "id"],
+        ["css=#btnSave_Estrat", "css:finder"],
+        ["xpath=//button[@id='btnSave_Estrat']", "xpath:attributes"],
+        ["xpath=//div[@id='crearCampanhasNueva']/div/div/div[3]/button[2]", "xpath:idRelative"],
+        ["xpath=//div/div[3]/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6992bfa8-eb79-45bb-b584-89ceb294d314",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=btnSave_Estrat",
+      "targets": [
+        ["id=btnSave_Estrat", "id"],
+        ["css=#btnSave_Estrat", "css:finder"],
+        ["xpath=//button[@id='btnSave_Estrat']", "xpath:attributes"],
+        ["xpath=//div[@id='crearCampanhasNueva']/div/div/div[3]/button[2]", "xpath:idRelative"],
+        ["xpath=//div/div[3]/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "66e21a2f-75cb-4b62-a382-a2cb407cae5a",
+      "comment": "",
+      "command": "click",
+      "target": "id=G10_C74",
+      "targets": [
+        ["id=G10_C74", "id"],
+        ["name=G10_C74", "name"],
+        ["css=#G10_C74", "css:finder"],
+        ["xpath=//select[@id='G10_C74']", "xpath:attributes"],
+        ["xpath=//form[@id='formuarioCargarEsto']/div[2]/div/div/select", "xpath:idRelative"],
+        ["xpath=//form[2]/div[2]/div/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95f5b690-9428-48b4-97c9-db128743f70c",
+      "comment": "",
+      "command": "select",
+      "target": "id=G10_C74",
+      "targets": [],
+      "value": "label=pentland"
+    }, {
+      "id": "cff4320c-acbf-41bc-9fd2-84a05bd7fd33",
+      "comment": "",
+      "command": "click",
+      "target": "id=btnSave_Estrat",
+      "targets": [
+        ["id=btnSave_Estrat", "id"],
+        ["css=#btnSave_Estrat", "css:finder"],
+        ["xpath=//button[@id='btnSave_Estrat']", "xpath:attributes"],
+        ["xpath=//div[@id='crearCampanhasNueva']/div/div/div[3]/button[2]", "xpath:idRelative"],
+        ["xpath=//div/div[3]/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "44ba36ff-5894-4bca-85c0-46da878916c2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ad65eb2f-6216-4e57-8123-2a1655339d38"]
+  }],
+  "urls": ["https://bpo-2.dyalogo.cloud/"],
+  "plugins": []
+}

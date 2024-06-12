@@ -1,0 +1,476 @@
+{
+  "id": "653b4daa-0435-4b25-b2d9-c0030cdf1b80",
+  "version": "2.0",
+  "name": "a",
+  "url": "https://bpo-2.dyalogo.cloud",
+  "tests": [{
+    "id": "97a6dbeb-f95b-461a-8ac1-9358a97bb51e",
+    "name": "HOLA",
+    "commands": [{
+      "id": "d1689250-77d1-4d5a-8715-65d0a865aa88",
+      "comment": "",
+      "command": "open",
+      "target": "https://qa.dyalogo.cloud/manager/modulo/estrategias",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "186025e7-4b13-4831-a3fc-041fb7f09826",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b1415e1f-2831-4be0-8a47-3913be9f358b",
+      "comment": "",
+      "command": "click",
+      "target": "id=table_search_lista_navegacion",
+      "targets": [
+        ["id=table_search_lista_navegacion", "id"],
+        ["name=table_search_lista_navegacion", "name"],
+        ["css=#table_search_lista_navegacion", "css:finder"],
+        ["xpath=//input[@id='table_search_lista_navegacion']", "xpath:attributes"],
+        ["xpath=//div[@id='div_lista_navegacion']/div/input", "xpath:idRelative"],
+        ["xpath=//section[2]/div/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e501f3d0-cf46-4cbe-8c47-3de8a5ee0668",
+      "comment": "",
+      "command": "type",
+      "target": "id=table_search_lista_navegacion",
+      "targets": [
+        ["id=table_search_lista_navegacion", "id"],
+        ["name=table_search_lista_navegacion", "name"],
+        ["css=#table_search_lista_navegacion", "css:finder"],
+        ["xpath=//input[@id='table_search_lista_navegacion']", "xpath:attributes"],
+        ["xpath=//div[@id='div_lista_navegacion']/div/input", "xpath:idRelative"],
+        ["xpath=//section[2]/div/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "sena"
+    }, {
+      "id": "f2abac3c-58d7-4aee-b2a6-936ccf7bb847",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=table_search_lista_navegacion",
+      "targets": [
+        ["id=table_search_lista_navegacion", "id"],
+        ["name=table_search_lista_navegacion", "name"],
+        ["css=#table_search_lista_navegacion", "css:finder"],
+        ["xpath=//input[@id='table_search_lista_navegacion']", "xpath:attributes"],
+        ["xpath=//div[@id='div_lista_navegacion']/div/input", "xpath:idRelative"],
+        ["xpath=//section[2]/div/div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "3b46d37d-1d02-498b-936e-32ea639367e8",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\38 25466008ba0a3f292ffbb8ea4fce688 b",
+      "targets": [
+        ["css=#\\38 25466008ba0a3f292ffbb8ea4fce688 b", "css:finder"],
+        ["xpath=//tr[@id='825466008ba0a3f292ffbb8ea4fce688']/td/p/b", "xpath:idRelative"],
+        ["xpath=//p/b", "xpath:position"],
+        ["xpath=//b[contains(.,'PRUEBA SENA')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "35e58151-8d95-496a-8a0d-7a7b2a407aec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-edit",
+      "targets": [
+        ["css=.fa-edit", "css:finder"],
+        ["xpath=//button[@id='edit']/i", "xpath:idRelative"],
+        ["xpath=//button[3]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bdda9f40-d892-4d81-9d30-a25a04f91809",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wrapper",
+      "targets": [
+        ["css=.wrapper", "css:finder"],
+        ["xpath=//div[7]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "39becd64-c7f3-4e3f-84a6-8e6bc8058635",
+      "comment": "",
+      "command": "type",
+      "target": "id=G2_C7",
+      "targets": [
+        ["id=G2_C7", "id"],
+        ["name=G2_C7", "name"],
+        ["css=#G2_C7", "css:finder"],
+        ["xpath=//input[@id='G2_C7']", "xpath:attributes"],
+        ["xpath=//div[@id='s_resumen_estrategia']/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f0ab2049-e0ce-42bb-9b31-94672fddc8db",
+      "comment": "",
+      "command": "click",
+      "target": "css=#s_resumen_estrategia > .box-body > .row:nth-child(1)",
+      "targets": [
+        ["css=#s_resumen_estrategia > .box-body > .row:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='s_resumen_estrategia']/div/div", "xpath:idRelative"],
+        ["xpath=//form/div/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "494edabb-d7b0-4321-85af-4084f2440038",
+      "comment": "",
+      "command": "click",
+      "target": "id=G2_C7",
+      "targets": [
+        ["id=G2_C7", "id"],
+        ["name=G2_C7", "name"],
+        ["css=#G2_C7", "css:finder"],
+        ["xpath=//input[@id='G2_C7']", "xpath:attributes"],
+        ["xpath=//div[@id='s_resumen_estrategia']/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b8d9ca4b-33e1-4344-95cc-8d33c7623730",
+      "comment": "",
+      "command": "type",
+      "target": "id=G2_C7",
+      "targets": [
+        ["id=G2_C7", "id"],
+        ["name=G2_C7", "name"],
+        ["css=#G2_C7", "css:finder"],
+        ["xpath=//input[@id='G2_C7']", "xpath:attributes"],
+        ["xpath=//div[@id='s_resumen_estrategia']/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "SENA"
+    }, {
+      "id": "413d1bbc-dce9-418c-8480-d206b34a3d51",
+      "comment": "",
+      "command": "click",
+      "target": "css=#s_resumen_estrategia > .box-body > .row:nth-child(1)",
+      "targets": [
+        ["css=#s_resumen_estrategia > .box-body > .row:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='s_resumen_estrategia']/div/div", "xpath:idRelative"],
+        ["xpath=//form/div/div/div/div[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9534c040-b6f3-489f-95a7-8ff5d01c4e68",
+      "comment": "",
+      "command": "click",
+      "target": "id=G2_C6",
+      "targets": [
+        ["id=G2_C6", "id"],
+        ["name=G2_C6", "name"],
+        ["css=#G2_C6", "css:finder"],
+        ["xpath=//select[@id='G2_C6']", "xpath:attributes"],
+        ["xpath=//div[@id='s_resumen_estrategia']/div/div[2]/div/div/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf303404-d643-4a5c-bb6c-392f85069b3c",
+      "comment": "",
+      "command": "select",
+      "target": "id=G2_C6",
+      "targets": [],
+      "value": "label=Campaña entrante simple"
+    }, {
+      "id": "a16db18e-73bc-4c2e-90d0-934bc1006ec7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.input-group-addon",
+      "targets": [
+        ["css=.input-group-addon", "css:finder"],
+        ["xpath=//div[@id='s_resumen_estrategia']/div/div[2]/div/div/div[3]/div/div/div", "xpath:idRelative"],
+        ["xpath=//div/div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f509d4de-6d8d-49dd-9a18-fb107962a77a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.colorpicker",
+      "targets": [
+        ["css=.colorpicker", "css:finder"],
+        ["xpath=//div[8]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d2d8de1-5c70-45c3-a9b6-a25df4b3d86d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.colorpicker",
+      "targets": [
+        ["css=.colorpicker", "css:finder"],
+        ["xpath=//div[8]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "664e4167-70c8-47e4-b5a1-981822c1d958",
+      "comment": "",
+      "command": "click",
+      "target": "id=G2_C8",
+      "targets": [
+        ["id=G2_C8", "id"],
+        ["name=G2_C8", "name"],
+        ["css=#G2_C8", "css:finder"],
+        ["xpath=//textarea[@id='G2_C8']", "xpath:attributes"],
+        ["xpath=//div[@id='s_resumen_estrategia']/div/div[3]/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb587f1e-846b-41da-8e65-808435d844b3",
+      "comment": "",
+      "command": "click",
+      "target": "id=G2_C8",
+      "targets": [
+        ["id=G2_C8", "id"],
+        ["name=G2_C8", "name"],
+        ["css=#G2_C8", "css:finder"],
+        ["xpath=//textarea[@id='G2_C8']", "xpath:attributes"],
+        ["xpath=//div[@id='s_resumen_estrategia']/div/div[3]/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ddb27f2-75d2-4a30-8d08-7f807045f152",
+      "comment": "",
+      "command": "type",
+      "target": "id=G2_C8",
+      "targets": [
+        ["id=G2_C8", "id"],
+        ["name=G2_C8", "name"],
+        ["css=#G2_C8", "css:finder"],
+        ["xpath=//textarea[@id='G2_C8']", "xpath:attributes"],
+        ["xpath=//div[@id='s_resumen_estrategia']/div/div[3]/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Prueba"
+    }, {
+      "id": "ac4b613d-e3f6-4670-8cfb-8249bdfe68e4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-12 > .panel:nth-child(1) > .box-header",
+      "targets": [
+        ["css=.col-md-12 > .panel:nth-child(1) > .box-header", "css:finder"],
+        ["xpath=//form[@id='FormularioDatos']/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "381117a1-e7f8-4dd0-a9fa-102ca301b96b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-save",
+      "targets": [
+        ["css=.fa-save", "css:finder"],
+        ["xpath=//button[@id='Save']/i", "xpath:idRelative"],
+        ["xpath=//button[4]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "63fdac4d-c9dc-4f51-bfdb-af56e644652e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-edit",
+      "targets": [
+        ["css=.fa-edit", "css:finder"],
+        ["xpath=//button[@id='edit']/i", "xpath:idRelative"],
+        ["xpath=//button[3]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "520b3577-8e82-4006-a939-fb869d606a6e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.box > .box-body > .row",
+      "targets": [
+        ["css=.box > .box-body > .row", "css:finder"],
+        ["xpath=//section[2]/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "594daac0-9bde-47ca-bfaa-14c3cfb6ef43",
+      "comment": "",
+      "command": "click",
+      "target": "css=.box > .box-body > .row",
+      "targets": [
+        ["css=.box > .box-body > .row", "css:finder"],
+        ["xpath=//section[2]/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "061709f4-42e0-42e4-b83e-3324db28e4e3",
+      "comment": "",
+      "command": "type",
+      "target": "id=G2_C7",
+      "targets": [
+        ["id=G2_C7", "id"],
+        ["name=G2_C7", "name"],
+        ["css=#G2_C7", "css:finder"],
+        ["xpath=//input[@id='G2_C7']", "xpath:attributes"],
+        ["xpath=//div[@id='s_resumen_estrategia']/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b2f96e8-c17a-492b-9aec-a4345b54649d",
+      "comment": "",
+      "command": "click",
+      "target": "id=Save",
+      "targets": [
+        ["id=Save", "id"],
+        ["css=#Save", "css:finder"],
+        ["xpath=//button[@id='Save']", "xpath:attributes"],
+        ["xpath=//div[@id='div_formularios']/div/button[4]", "xpath:idRelative"],
+        ["xpath=//button[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "418e57e2-d00c-459d-9aa5-6cb0b62300f6",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=Save",
+      "targets": [
+        ["id=Save", "id"],
+        ["css=#Save", "css:finder"],
+        ["xpath=//button[@id='Save']", "xpath:attributes"],
+        ["xpath=//div[@id='div_formularios']/div/button[4]", "xpath:idRelative"],
+        ["xpath=//button[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aed8193c-5880-4fcc-9c97-d644a45ed33b",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=Save",
+      "targets": [
+        ["id=Save", "id"],
+        ["css=#Save", "css:finder"],
+        ["xpath=//button[@id='Save']", "xpath:attributes"],
+        ["xpath=//div[@id='div_formularios']/div/button[4]", "xpath:idRelative"],
+        ["xpath=//button[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0edb61b3-2786-468d-abbc-1dbb8ab75973",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-edit",
+      "targets": [
+        ["css=.fa-edit", "css:finder"],
+        ["xpath=//button[@id='edit']/i", "xpath:idRelative"],
+        ["xpath=//button[3]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df00a265-51af-4dbf-a159-4956e5f590b3",
+      "comment": "",
+      "command": "click",
+      "target": "id=G2_C7",
+      "targets": [
+        ["id=G2_C7", "id"],
+        ["name=G2_C7", "name"],
+        ["css=#G2_C7", "css:finder"],
+        ["xpath=//input[@id='G2_C7']", "xpath:attributes"],
+        ["xpath=//div[@id='s_resumen_estrategia']/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95a3335b-8bc6-4f03-b829-04f35a15750e",
+      "comment": "",
+      "command": "type",
+      "target": "id=G2_C7",
+      "targets": [
+        ["id=G2_C7", "id"],
+        ["name=G2_C7", "name"],
+        ["css=#G2_C7", "css:finder"],
+        ["xpath=//input[@id='G2_C7']", "xpath:attributes"],
+        ["xpath=//div[@id='s_resumen_estrategia']/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "SENA"
+    }, {
+      "id": "20020272-575e-4079-8ec5-81e825126bc5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.box > .box-body > .row",
+      "targets": [
+        ["css=.box > .box-body > .row", "css:finder"],
+        ["xpath=//section[2]/div/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa2a0b90-c19e-4441-8fbd-b1b5756b3f18",
+      "comment": "",
+      "command": "type",
+      "target": "id=G2_C7",
+      "targets": [
+        ["id=G2_C7", "id"],
+        ["name=G2_C7", "name"],
+        ["css=#G2_C7", "css:finder"],
+        ["xpath=//input[@id='G2_C7']", "xpath:attributes"],
+        ["xpath=//div[@id='s_resumen_estrategia']/div/div[2]/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div/div[2]/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "PRUEBA SENA"
+    }, {
+      "id": "81090bfe-58ca-4c62-bf2c-544b29594dea",
+      "comment": "",
+      "command": "click",
+      "target": "id=Save",
+      "targets": [
+        ["id=Save", "id"],
+        ["css=#Save", "css:finder"],
+        ["xpath=//button[@id='Save']", "xpath:attributes"],
+        ["xpath=//div[@id='div_formularios']/div/button[4]", "xpath:idRelative"],
+        ["xpath=//button[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3c8ea01-9c43-4e12-98f0-718a6ff21582",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=Save",
+      "targets": [
+        ["id=Save", "id"],
+        ["css=#Save", "css:finder"],
+        ["xpath=//button[@id='Save']", "xpath:attributes"],
+        ["xpath=//div[@id='div_formularios']/div/button[4]", "xpath:idRelative"],
+        ["xpath=//button[4]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1cf4823a-b94a-48b9-956c-8f8f068cfd27",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=Save",
+      "targets": [
+        ["id=Save", "id"],
+        ["css=#Save", "css:finder"],
+        ["xpath=//button[@id='Save']", "xpath:attributes"],
+        ["xpath=//div[@id='div_formularios']/div/button[4]", "xpath:idRelative"],
+        ["xpath=//button[4]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ca709850-4625-4637-afee-866b18999f9c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["97a6dbeb-f95b-461a-8ac1-9358a97bb51e"]
+  }],
+  "urls": ["https://bpo-2.dyalogo.cloud/"],
+  "plugins": []
+}

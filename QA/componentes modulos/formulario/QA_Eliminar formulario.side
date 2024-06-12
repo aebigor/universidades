@@ -1,0 +1,104 @@
+{
+  "id": "7dd0a3c0-59df-41cd-bcfa-53bf8a268358",
+  "version": "2.0",
+  "name": "Eliminar Formulario",
+  "url": "https://bpo-2.dyalogo.cloud/manager/modulo/guion/73dc7ba1230f53df37ed3b07e5d22464",
+  "tests": [{
+    "id": "f2990991-ee29-4b4b-bd7d-ae675516cf81",
+    "name": "Eliminar Formulario",
+    "commands": [{
+      "id": "688e1d31-7497-4236-81bb-0c746fcd76e9",
+      "comment": "",
+      "command": "open",
+      "target": "https://qa.dyalogo.cloud/manager/modulo/guion/73dc7ba1230f53df37ed3b07e5d22464",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9837e359-ef40-421f-b8d0-b8c9a5c16620",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x736",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "65ee5417-4fc6-419a-a571-7dc179fcddb4",
+      "comment": "",
+      "command": "click",
+      "target": "id=table_search_lista_navegacion",
+      "targets": [
+        ["id=table_search_lista_navegacion", "id"],
+        ["name=table_search_lista_navegacion", "name"],
+        ["css=#table_search_lista_navegacion", "css:finder"],
+        ["xpath=//input[@id='table_search_lista_navegacion']", "xpath:attributes"],
+        ["xpath=//div[@id='div_lista_navegacion']/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "980fa629-b151-482b-b5e4-b3fe5551afea",
+      "comment": "",
+      "command": "type",
+      "target": "id=table_search_lista_navegacion",
+      "targets": [
+        ["id=table_search_lista_navegacion", "id"],
+        ["name=table_search_lista_navegacion", "name"],
+        ["css=#table_search_lista_navegacion", "css:finder"],
+        ["xpath=//input[@id='table_search_lista_navegacion']", "xpath:attributes"],
+        ["xpath=//div[@id='div_lista_navegacion']/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "sena"
+    }, {
+      "id": "8c42f47d-e381-490e-a9fd-b3c89f02eebb",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=table_search_lista_navegacion",
+      "targets": [
+        ["id=table_search_lista_navegacion", "id"],
+        ["name=table_search_lista_navegacion", "name"],
+        ["css=#table_search_lista_navegacion", "css:finder"],
+        ["xpath=//input[@id='table_search_lista_navegacion']", "xpath:attributes"],
+        ["xpath=//div[@id='div_lista_navegacion']/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "019be159-7c61-4c88-9ac1-22c31cf7037c",
+      "comment": "",
+      "command": "click",
+      "target": "id=delete",
+      "targets": [
+        ["id=delete", "id"],
+        ["css=#delete", "css:finder"],
+        ["xpath=//button[@id='delete']", "xpath:attributes"],
+        ["xpath=//div[@id='div_formularios']/div/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "acb8470d-a9d1-4bb9-8660-d6caa54f34ac",
+      "comment": "",
+      "command": "click",
+      "target": "id=alertify-ok",
+      "targets": [
+        ["id=alertify-ok", "id"],
+        ["css=#alertify-ok", "css:finder"],
+        ["xpath=//button[@id='alertify-ok']", "xpath:attributes"],
+        ["xpath=//section[@id='alertify']/div/article/nav/button[2]", "xpath:idRelative"],
+        ["xpath=//nav/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "05131098-aa1f-4c12-b351-61b578cd9dc2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f2990991-ee29-4b4b-bd7d-ae675516cf81"]
+  }],
+  "urls": ["https://bpo-2.dyalogo.cloud/manager/modulo/guion/73dc7ba1230f53df37ed3b07e5d22464"],
+  "plugins": []
+}

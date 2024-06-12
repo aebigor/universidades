@@ -1,0 +1,199 @@
+{
+  "id": "2568d68b-a288-44a6-8828-fe2f3db0023f",
+  "version": "2.0",
+  "name": "CP06.1",
+  "url": "https://bpo-2.dyalogo.cloud/manager/modulo/usuarios",
+  "tests": [{
+    "id": "3e2ee2bf-7384-47b4-83a5-01f434ddfc08",
+    "name": "CP06.1",
+    "commands": [{
+      "id": "16ad7265-84b5-405c-9af7-d094f32c28c4",
+      "comment": "",
+      "command": "open",
+      "target": "https://qa.dyalogo.cloud/manager/modulo/usuarios",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "32af3867-2cba-4133-9ff3-8e1b08ccc1bf",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1004x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "abea2108-c76f-4249-990d-4e2f18f37b5b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#add > .fa",
+      "targets": [
+        ["css=#add > .fa", "css:finder"],
+        ["xpath=//button[@id='add']/i", "xpath:idRelative"],
+        ["xpath=//div[2]/div/button/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f51edd9-ecff-46af-934a-d7e146a10b81",
+      "comment": "",
+      "command": "click",
+      "target": "id=NombreUsuario",
+      "targets": [
+        ["id=NombreUsuario", "id"],
+        ["name=NombreUsuario", "name"],
+        ["css=#NombreUsuario", "css:finder"],
+        ["xpath=//input[@id='NombreUsuario']", "xpath:attributes"],
+        ["xpath=//form[@id='FormularioDatos']/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc3dc522-1416-4609-ad99-ce29873391dc",
+      "comment": "",
+      "command": "type",
+      "target": "id=NombreUsuario",
+      "targets": [
+        ["id=NombreUsuario", "id"],
+        ["name=NombreUsuario", "name"],
+        ["css=#NombreUsuario", "css:finder"],
+        ["xpath=//input[@id='NombreUsuario']", "xpath:attributes"],
+        ["xpath=//form[@id='FormularioDatos']/div/div/div/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/div/div/div/div/input", "xpath:position"]
+      ],
+      "value": "Maritza Mariana Valentina"
+    }, {
+      "id": "54474ac3-212d-4f3a-8352-32e3d03a1369",
+      "comment": "",
+      "command": "click",
+      "target": "id=Correo",
+      "targets": [
+        ["id=Correo", "id"],
+        ["name=Correo", "name"],
+        ["css=#Correo", "css:finder"],
+        ["xpath=//input[@id='Correo']", "xpath:attributes"],
+        ["xpath=//form[@id='FormularioDatos']/div/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4939e1db-2f5f-4fd9-a35c-9b49ad2da013",
+      "comment": "",
+      "command": "type",
+      "target": "id=Correo",
+      "targets": [
+        ["id=Correo", "id"],
+        ["name=Correo", "name"],
+        ["css=#Correo", "css:finder"],
+        ["xpath=//input[@id='Correo']", "xpath:attributes"],
+        ["xpath=//form[@id='FormularioDatos']/div/div/div/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//form/div/div/div/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "valentinamarinamaritza@gmail.com"
+    }, {
+      "id": "084d7119-d368-48f0-b4e1-3de4217d164a",
+      "comment": "",
+      "command": "click",
+      "target": "id=IdentificacionUsuario",
+      "targets": [
+        ["id=IdentificacionUsuario", "id"],
+        ["name=IdentificacionUsuario", "name"],
+        ["css=#IdentificacionUsuario", "css:finder"],
+        ["xpath=//input[@id='IdentificacionUsuario']", "xpath:attributes"],
+        ["xpath=//form[@id='FormularioDatos']/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e1a4cbac-dadc-491f-b198-2ec0babe7085",
+      "comment": "",
+      "command": "type",
+      "target": "id=IdentificacionUsuario",
+      "targets": [
+        ["id=IdentificacionUsuario", "id"],
+        ["name=IdentificacionUsuario", "name"],
+        ["css=#IdentificacionUsuario", "css:finder"],
+        ["xpath=//input[@id='IdentificacionUsuario']", "xpath:attributes"],
+        ["xpath=//form[@id='FormularioDatos']/div/div/div[2]/div/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/form/div/div/div[2]/div/div/input", "xpath:position"]
+      ],
+      "value": "1364798512"
+    }, {
+      "id": "1223745c-6141-4bfe-9650-81ead2e7eca4",
+      "comment": "",
+      "command": "click",
+      "target": "id=Cargo",
+      "targets": [
+        ["id=Cargo", "id"],
+        ["name=Cargo", "name"],
+        ["css=#Cargo", "css:finder"],
+        ["xpath=//select[@id='Cargo']", "xpath:attributes"],
+        ["xpath=//form[@id='FormularioDatos']/div/div/div[2]/div[2]/div/select", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a439244-bc43-4210-b716-c53825c8b3f2",
+      "comment": "",
+      "command": "select",
+      "target": "id=Cargo",
+      "targets": [],
+      "value": "label=Agente"
+    }, {
+      "id": "0056f1ce-801d-49e4-a511-a95a5548fd50",
+      "comment": "",
+      "command": "click",
+      "target": "css=.fa-save",
+      "targets": [
+        ["css=.fa-save", "css:finder"],
+        ["xpath=//button[@id='Save']/i", "xpath:idRelative"],
+        ["xpath=//button[4]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7da66e1-ccd8-45d5-8924-fcb4a5b52659",
+      "comment": "",
+      "command": "click",
+      "target": "css=#f8810623c7d0e5189f98671ae5cafd32 b",
+      "targets": [
+        ["css=#f8810623c7d0e5189f98671ae5cafd32 b", "css:finder"],
+        ["xpath=//tr[@id='f8810623c7d0e5189f98671ae5cafd32']/td/p/b", "xpath:idRelative"],
+        ["xpath=//tr[4]/td/p/b", "xpath:position"],
+        ["xpath=//b[contains(.,'Maritza Mariana Valentina')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fc58cf8b-e3bc-4730-8da9-88aa0fb3da6b",
+      "comment": "",
+      "command": "click",
+      "target": "css=#delete > .fa",
+      "targets": [
+        ["css=#delete > .fa", "css:finder"],
+        ["xpath=//button[@id='delete']/i", "xpath:idRelative"],
+        ["xpath=//button[2]/i", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d1c16d8-3622-4068-8fb3-3c67534c3947",
+      "comment": "",
+      "command": "click",
+      "target": "id=alertify-ok",
+      "targets": [
+        ["id=alertify-ok", "id"],
+        ["css=#alertify-ok", "css:finder"],
+        ["xpath=//button[@id='alertify-ok']", "xpath:attributes"],
+        ["xpath=//section[@id='alertify']/div/article/nav/button[2]", "xpath:idRelative"],
+        ["xpath=//nav/button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'OK')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6cd31ac1-1951-4ef6-b705-87e8d39cf148",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["3e2ee2bf-7384-47b4-83a5-01f434ddfc08"]
+  }],
+  "urls": ["https://bpo-2.dyalogo.cloud/manager/modulo/usuarios"],
+  "plugins": []
+}
